@@ -1,0 +1,8 @@
+digraph "" {
+False [color=red, shape=box];
+True [color=blue, shape=box];
+False -> False  [key=0, label="ID(False)"];
+False -> True  [key=0, label="!(False)"];
+True -> False  [key=0, label="!(True)"];
+True -> True  [key=0, label="ID(True)"];
+}

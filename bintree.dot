@@ -1,0 +1,15 @@
+digraph "" {
+"NEG(F)";
+"ID(F)";
+NEG;
+"ID(T)";
+"NEG(T)";
+x0;
+ID;
+NEG -> "NEG(F)"  [key=0];
+NEG -> "NEG(T)"  [key=0];
+x0 -> NEG  [key=0];
+x0 -> ID  [key=0];
+ID -> "ID(T)"  [key=0];
+ID -> "ID(F)"  [key=0];
+}

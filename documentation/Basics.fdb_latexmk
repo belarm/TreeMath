@@ -1,0 +1,21 @@
+# Fdb version 3
+["pdflatex"] 1485713745 "Basics.tex" "/home/belarm/source/graphs/Basics.pdf" "Basics" 1485713745
+  "/etc/texmf/web2c/texmf.cnf" 1480618393 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/belarm/source/graphs/Basics.aux" 1485713737 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1459635588 19821 310da678527a7dfe2a02c88af38079b7 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1459635588 8292 e897c12e1e886ce77fe26afc5d470886 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1480479489 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1480479489 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1485533419 1674534 79eea2b7e0419f00216115cec9267be2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1485533413 719364 c0e62b4fe98a1aa9b58cf37b3ed6f94a ""
+  "Basics.aux" 1485713737 8 a94a2480d3289e625eea47cd1b285758 ""
+  "Basics.tex" 1485713745 111 d38a6281ab2b1f0810a5c886ce9ee674 ""
+  "names.tex" 1485709209 23 9962daa2f21a0209bc6f8e7586dc069d ""
+  (generated)
+  "Basics.aux"
+  "Basics.pdf"
+  "/home/belarm/source/graphs/Basics.pdf"
+  "/home/belarm/source/graphs/Basics.log"
+  "Basics.log"
