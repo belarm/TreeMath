@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>LaTeX4Web 1.4 OUTPUT</title>
+<style type="text/css">
+<!--
+ body {color: black;  background:"#FFCC99";  }
+ div.p { margin-top: 7pt;}
+ td div.comp { margin-top: -0.6ex; margin-bottom: -1ex;}
+ td div.comb { margin-top: -0.6ex; margin-bottom: -.6ex;}
+ td div.norm {line-height:normal;}
+ td div.hrcomp { line-height: 0.9; margin-top: -0.8ex; margin-bottom: -1ex;}
+ td.sqrt {border-top:2 solid black;
+          border-left:2 solid black;
+          border-bottom:none;
+          border-right:none;}
+ table.sqrt {border-top:2 solid black;
+             border-left:2 solid black;
+             border-bottom:none;
+             border-right:none;}
+-->
+</style>
+</head>
+<body>
+\documentclassarticle
+\usepackageamsfonts
+\begindocument
+
+(*  <font face=symbol>Î</font> put names.tex *)
+\def<font face=symbol>Â</font>als\mathbbR
+\def\boolspace\mathbbB
+\def\boolstring\mathbbB_\mathbbZ
+
+We shall define boolean strings \boolstring as:
+[\boolspace = {False, True}]
+[B_1 = {b_0 : b_0  <font face=symbol>Î</font>  \boolspace}]
+[B_2 = {b_0 b_1 : b_0  <font face=symbol>Î</font>  \boolspace <font face=symbol>Ù</font> b_1  <font face=symbol>Î</font>  \boolspace}]
+[...]
+[B_n = {b_0 b_1 ... b_n-1 : b_0 ... b_n-1  <font face=symbol>Î</font>  \boolspace}]
+[\boolstring = {B_1, B_2, ..., B_<font face=symbol>¥</font>}]
+
+Pretty sure I don<font face=symbol>¢</font>t need \boolstring, but it<font face=symbol>¢</font>s pretty. I think B<sub>n</sub> is what I really want.
+
+Thus, a boolean string is a non-terminating, positionally-ordered
+set of {False, True} taking the form \textiteg 00100011000....
+
+While strings do not terminate, they may have an infinite number of trailing False entries.
+Such strings can be simply represented in a computer<font face=symbol>¢</font>s memory, but the full expansion of b  <font face=symbol>Î</font>  \boolstring cannot.
+
+This definition removes much of the utility of boolean strings in computers, but does allow them to fully represent \mathbbR, for example.
+
+We shall attempt to show that, through techniques such as Dedekind cuts, one can embed all spaces within \boolstring.
+\enddocument
+</body>
+</html>
